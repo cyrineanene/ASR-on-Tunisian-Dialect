@@ -209,3 +209,4 @@ __marimo__/
 data/processed_segments
 data/audio_testing
 *.zip
+global/
