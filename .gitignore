@@ -206,9 +206,9 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 *.csv
-data/processed_segments
-data/audio_testing
 *.zip
-global/
+global_audios/
 audio_files/
-transcriptions/
+dataset/processed_segments/
+datasets/
+data_tunswitch/

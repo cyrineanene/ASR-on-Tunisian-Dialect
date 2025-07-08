@@ -9,13 +9,20 @@ verify_ssl = true
 name = "pytorch"
 
 [packages]
-datasets = "*"
-soundfile = "*"
-librosa = "*"
-transformers = "==4.40.0"
+yt-dlp = {extras = ["default"], version = "==2025.6.25"}
+pydub = "==0.25.1"
 ffmpeg-python = "==0.2.0"
-huggingface-hub = {extras = ["hf_xet"], version = "*"}
-torch = {version = "*", index = "pytorch"}
+datasets = "==3.6.0"
+accelerate = "==1.8.1"
+soundfile = "==0.13.1"
+librosa = "==0.11.0"
+evaluate = "==0.4.4"
+jiwer = "==4.0.0"
+transformers = "==4.40.0"
+huggingface-hub = {extras = ["hf_xet"], version = "==0.33.1"}
+torch = {version = "==2.7.1+cu126", index = "pytorch"}
+torchvision = {version = "==0.22.1+cu126", index = "pytorch"}
+torchaudio = {version = "==2.7.1+cu126", index = "pytorch"}
 
 [dev-packages]
 
