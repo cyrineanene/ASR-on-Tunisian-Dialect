@@ -10,7 +10,6 @@ name = "pytorch"
 
 [packages]
 yt-dlp = {extras = ["default"], version = "==2025.6.25"}
-pydub = "==0.25.1"
 ffmpeg-python = "==0.2.0"
 datasets = "==3.6.0"
 accelerate = "==1.8.1"
@@ -23,6 +22,7 @@ huggingface-hub = {extras = ["hf_xet"], version = "==0.33.1"}
 torch = {version = "==2.7.1+cu126", index = "pytorch"}
 torchvision = {version = "==0.22.1+cu126", index = "pytorch"}
 torchaudio = {version = "==2.7.1+cu126", index = "pytorch"}
+pydub = "*"
 
 [dev-packages]
 
