@@ -206,7 +206,8 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 *.csv
-*.zip
+dataset_linto_final.zip
+all_checkpoints.zip
 global_audios/
 audio_files/
 dataset/processed_segments/
