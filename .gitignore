@@ -207,7 +207,7 @@ marimo/_lsp/
 __marimo__/
 *.csv
 dataset_linto_final.zip
-all_checkpoints.zip
+git commit -m "Add zip file via Git LFS"
 global_audios/
 audio_files/
 dataset/processed_segments/
